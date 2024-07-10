@@ -596,10 +596,6 @@ video {
   grid-column: span 4 / span 4;
 }
 
-.col-span-8 {
-  grid-column: span 8 / span 8;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -616,14 +612,6 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .inline {
@@ -647,10 +635,6 @@ video {
   width: 50%;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -663,37 +647,14 @@ video {
   border-width: 1px;
 }
 
-.bg-myBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(218 230 243 / var(--tw-bg-opacity));
-}
-
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
+.bg-myBlue {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
+  background-color: rgb(218 230 243 / var(--tw-bg-opacity));
 }
 
 .P_margeBlock {
@@ -716,6 +677,11 @@ video {
   text-transform: uppercase;
 }
 
+ul {
+  margin-left: 1.25rem;
+  list-style-type: disc;
+}
+
 @media (min-width: 768px) {
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
@@ -736,15 +702,5 @@ video {
   .dark\:bg-blue-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-gray-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
