@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.P_margeBlock {
+  @apply px-4 lg:px-16 mt-3;
+}
+.P_titreBlock {
+  @apply text-xl font-bold uppercase;
+}
