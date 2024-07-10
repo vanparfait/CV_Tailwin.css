@@ -601,13 +601,29 @@ video {
   display: grid;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-myBlue {
   --tw-bg-opacity: 1;
   background-color: rgb(218 230 243 / var(--tw-bg-opacity));
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-myBlue {
