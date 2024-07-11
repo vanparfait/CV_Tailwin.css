@@ -8,7 +8,6 @@
 .P_titreBlock {
   @apply text-xl font-bold uppercase;
 }
-
 ul {
   @apply list-disc ml-5;
 }
